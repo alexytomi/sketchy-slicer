@@ -5,4 +5,4 @@ Resource pack migration tool for Minecraft: Java Edition.
 
 Sketching about trying to turn 1.8.9 gui pack to a somewhat workable state on 1.20.4.
 
-I have no idea how to write java.
+I have no idea how to write java. I don't think i can continue past this point
