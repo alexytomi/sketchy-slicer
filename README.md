@@ -1,3 +1,4 @@
+=======
 # sketchy-slicer
 Resource pack migration tool for Minecraft: Java Edition.
 <s>Two versions of the tool are available for migrations to both 1.14 and 1.20.2 pack formats. </s> 
