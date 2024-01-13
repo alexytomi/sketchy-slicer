@@ -7,6 +7,6 @@ Sketching about trying to turn 1.8.9 gui pack to a somewhat workable state on 1.
 
 I have no idea how to write java.
 
-### List of stuff that I think I got working
+### List of stuff that I think I got working that was broken
 
 Creative tabs
