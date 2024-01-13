@@ -1,0 +1,17 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.import.projectSelection": "manual",
+    "javascript.suggest.includeCompletionsForImportStatements": false,
+    "typescript.suggest.includeCompletionsForImportStatements": false,
+    "java.import.exclusions": [
+        "**/node_modules/**",
+        "**/.metadata/**",
+        "**/archetype-resources/**",
+        "**/META-INF/maven/**"
+    ],
+    "java.configuration.updateBuildConfiguration": "disabled",
+    "javaAutoConfig.enabled": true,
+    "vsintellicode.java.completionsEnabled": false,
+    "javascript.suggest.autoImports": false,
+    "typescript.suggest.autoImports": false
+}

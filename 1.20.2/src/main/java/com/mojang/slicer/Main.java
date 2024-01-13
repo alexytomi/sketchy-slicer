@@ -125,34 +125,34 @@ public class Main {
         ),
         input("assets/minecraft/textures/gui/container/creative_inventory/tabs.png",
             new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/scroller.png", new Box(232, 0, 12, 15, 256, 256)),//StartX, StartY, EndX, EndY, sth, sth??
-            new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/scroller_disabled.png", new Box(244, 0, 12, 15, 256, 256)),//these coords starts counting from 1
-            new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_1.png", new Box(0, 0, 28, 32, 256, 256)),//
+            new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/scroller_disabled.png", new Box(244, 0, 12, 15, 256, 256)),
+            new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_1.png", new Box(0, 0, 28, 32, 256, 256)),
             new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_2.png", new Box(28, 0, 28, 32, 256, 256)),
             new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_3.png", new Box(56, 0, 28, 32, 256, 256)),
             new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_4.png", new Box(84, 0, 28, 32, 256, 256)),
             new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_5.png", new Box(112, 0, 28, 32, 256, 256)),
-            new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_6.png", new Box(28, 0, 28, 32, 256, 256)),
-            new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_7.png", new Box(140, 0, 28, 32, 256, 256)),//done
+            new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_6.png", new Box(28, 0, 28, 32, 256, 256)),//duplicate tab 2 as compromise
+            new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_7.png", new Box(140, 0, 28, 32, 256, 256)),
             new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_1.png", new Box(0, 32, 28, 32, 256, 256)),
-            new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_2.png", new Box(28, 32, 28, 32, 256, 256)),// StartX, StartY, 
+            new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_2.png", new Box(28, 32, 28, 32, 256, 256)),
             new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_3.png", new Box(56, 32, 28, 32, 256, 256)),
             new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_4.png", new Box(84, 32, 28, 32, 256, 256)),
             new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_5.png", new Box(112, 32, 28, 32, 256, 256)),
-            new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_6.png", new Box(28, 32, 28, 32, 256, 256)),
+            new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_6.png", new Box(28, 32, 28, 32, 256, 256)),//duplicate tab 2 as compromise
             new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_7.png", new Box(140, 32, 28, 32, 256, 256)),
             new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_1.png", new Box(0, 64, 28, 32, 256, 256)),
             new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_2.png", new Box(28, 64, 28, 32, 256, 256)),
             new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_3.png", new Box(56, 64, 28, 32, 256, 256)),
             new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_4.png", new Box(84, 64, 28, 32, 256, 256)),
             new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_5.png", new Box(112, 64, 28, 32, 256, 256)),
-            new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_6.png", new Box(28, 64, 28, 32, 256, 256)),
+            new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_6.png", new Box(28, 64, 28, 32, 256, 256)),//duplicate tab 2 as compromise
             new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_7.png", new Box(140, 64, 28, 32, 256, 256)),
             new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_1.png", new Box(0, 96, 28, 32, 256, 256)),
             new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_2.png", new Box(28, 96, 28, 32, 256, 256)),
             new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_3.png", new Box(56, 96, 28, 32, 256, 256)),
             new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_4.png", new Box(84, 96, 28, 32, 256, 256)),
             new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_5.png", new Box(112, 96, 28, 32, 256, 256)),
-            new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_6.png", new Box(28, 96, 28, 32, 256, 256)),
+            new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_6.png", new Box(28, 96, 28, 32, 256, 256)),//duplicate tab 2 as compromise
             new OutputFile("assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_7.png", new Box(140, 96, 28, 32, 256, 256))
         ),
         input("assets/minecraft/textures/gui/advancements/tabs.png",
